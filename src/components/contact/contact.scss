@@ -1,5 +1,13 @@
 @import "../../app.scss";
 
+@include mobile{
+    section{
+        scroll-snap-type: none;
+        scroll-behavior: smooth;
+        scroll-snap-align: unset;
+    }
+ }
+
 .contact{
     height: 100%;
     width: 1100px;

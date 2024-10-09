@@ -7,7 +7,6 @@ import Paralax from './components/paralax/Paralax'
 import Skills from './components/skills/Skills'
 import Project from './components/projects/Project'
 import Contact from './components/contact/Contact'
-import About from './components/about/About'
 function App() {
 
   return (
