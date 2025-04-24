@@ -16,9 +16,11 @@
     align-items: center;
     gap: 50px;
     @include mobile{
+        
        width: 100%;
        padding: 10px;
        position: relative;
+       top: 80px;
        flex-direction: column;
        justify-items: center;
     }
@@ -30,11 +32,11 @@
     flex-direction: column;
     gap: 40px;
     @include mobile{
-       gap: 20px;
+       gap: 10px;
        text-align: center;
        position: relative;
        align-items: center;
-       bottom: -50%;
+       bottom: -47%;
 
        margin-top: 5px;
     }

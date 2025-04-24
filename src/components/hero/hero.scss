@@ -82,18 +82,20 @@
     }
 }
 .imgContainer{
-    height: 230px;
-    width: 200px;
+    height: 100%;
+    width: 50%;
+    z-index: 3;
+    
     position: absolute;
-    top:110px;
-    right: 260px;
+    top:0px;
+    right: 0px;
 
 
       @include mobile{
-      height: 50%;
-      width: 70%;
-      top: unset;
-      left:25%;
+      height: 60%;
+      width: 100%;
+      top: 50%;
+      left:15%;
       bottom: 0;
 
       img{
@@ -106,9 +108,14 @@
     
     img{
         height: inherit;
-        width: inherit;
-        border-radius: 50%;
-        box-shadow: 0 0 40px 20px rgba(238, 179, 15, 0.8);;
+        width: 70%;
+        filter: drop-shadow(1px  5px 5px rgba(149, 232, 245, 0.5));
+
+
+    }
+    img:hover{
+        filter: drop-shadow(1px  10px 10px rgba(149, 232, 245, 0.5));
+
     }
 }
 

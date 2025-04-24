@@ -5,16 +5,23 @@ import { motion,useScroll ,useSpring, useTransform} from "framer-motion"
 const items = [
     {
         id: 1,
-        title: "CAREO",
-        img: "https://i.pinimg.com/originals/70/22/fd/7022fde301338644bca180ebce7d51a7.jpg",
-        description: "Careo is a full-stack web application designed for users to easily buy and sell second-hand cars. Built using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB Atlas, and EJS, the app offers features like user authentication,Authorization, car listings, and reviews. With a responsive design and intuitive interface, Careo ensures a smooth, user-friendly experience across all devices.",
-        link:"https://careo-webapp.onrender.com/listings",
+        title: "HOLLYDAY",
+        img: "https://i.pinimg.com/736x/72/1b/bd/721bbd1c1059df7157b6dec44cd27c85.jpg",
+        description: "Hollyday is an ongoing project that I am working on, and it's almost done. The stack I used is the MERN stack, built with a beautiful UI. It will be live soon, and the code can be viewed at the provided link.",
+        link:"https://github.com/ameenshariff2003/Hotel.git",
     },
     {
         id: 2,
+        title: "CAREO",
+        img: "https://i.pinimg.com/736x/9f/98/2d/9f982d6a5d78c8205bb2110149410e73.jpg",
+        description: "Careo is a full-stack web application designed for users to easily buy and sell second-hand cars. Built using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB Atlas, and EJS, the app offers features like user authentication,Authorization, car listings, and reviews. With a responsive design and intuitive interface, Careo ensures a smooth, user-friendly experience across all devices.",
+        link:"https://careo-web-app-7hv4.vercel.app/listings",
+    },
+    {
+        id: 3,
         title: "WONDERLUST",
         img: "https://i.pinimg.com/564x/27/5f/cb/275fcb933434a4d8cdb8b0280241a65b.jpg",
-        description: "Wonderlust is a full-stack web application where users can explore, post, and review holiday destinations. Using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB Atlas, and EJS, the app allows users to log in, share their travel experiences, and leave reviews on destinations. With a focus on user interaction and responsive design, Wonderlust provides a seamless platform for travelers to discover and recommend places.",
+        description: "Wonderlust is a full-stack web application where users can explore, post, and review holiday destinations. Using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB Atlas, and EJS, the app allows users to log in, share their travel experiences, and leave reviews on destinations. With a focus on user interaction and responsive design, Wonderlust provides a seamless platform for travelers to discover and recommend places PLEASE  WAIT  FOR  50  SECONDS  TO  LOAD.",
         link:"https://wonderlust-project-rjc5.onrender.com/listings",
     }
 ]
@@ -29,7 +36,7 @@ const Single = ({item})  =>{
     const y = useTransform(scrollYProgress,[0,1],[-200,200])
 
     return (
-        <section >
+        <section id="project" >
             <div className="container">
             <div className="wrapper">
             <div className="imageContainer" ref={ref}>

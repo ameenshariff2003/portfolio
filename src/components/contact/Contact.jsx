@@ -49,12 +49,12 @@ export default function Contact() {
                 <motion.h1 variants={variants}>Let's get in touch</motion.h1>
                 <motion.div className="item" variants={variants}>
                     <h2>Mail</h2>
-                    <span> <a href="mailto:ameenshariff3443@gmail.com">Ameenshariff3443@gmail.com</a></span>
+                    <span> <a href="mailto:ameenshariff1414@gmail.com">Ameenshariff1414@gmail.com</a></span>
 
                 </motion.div>
                 <motion.div className="item" variants={variants}>
                     <h2>Address</h2>
-                    <span>Shamanna Nagar,Vijayanagar,Bengaluru -560026</span>
+                    <span>Bapuji Nagar,Vijayanagar,Bengaluru -560026</span>
 
                 </motion.div>
                 <motion.div className="item" variants={variants}>

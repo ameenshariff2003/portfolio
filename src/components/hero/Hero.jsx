@@ -50,7 +50,7 @@ export default function Hero() {
         <motion.h2 variants={textVarient}>AMEEN SHARIFF</motion.h2>
         <motion.h1 variants={textVarient}>Fullstack Web Developer</motion.h1>
         <motion.div variants={textVarient} className="buttons">
-           <a href='/ameenresume.pdf' download="ameen_resume.pdf"><motion.button  variants={textVarient}> Download my Resume</motion.button></a>
+           <a href='/Ameen_resume.pdf' download="ameen_resume.pdf"><motion.button  variants={textVarient}> Download my Resume</motion.button></a>
            <a href='#contact'><motion.button variants={textVarient}>Contact Me</motion.button></a>
             
 
@@ -61,7 +61,7 @@ export default function Hero() {
         MERN Stack Developer 
     </motion.div>
     <div className="imgContainer">
-        <img src="/ameenpassport.jpg" alt="" />
+        <img src="/ameen.png" alt="" />
     </div>
       
     </div>
